@@ -1,0 +1,11 @@
+************ApiTest***********************
+***Autor: Ingeniero Beimer Arroyo Reyes***
+***El backend esta estructurado de la siguientes manera:
+lo que se conoce como rutas en node, se le cambio el nombre por controlador,
+solo existe dos post y user, por cierto los nombres de metodos estan en ingles
+el frontend no esta conectado con el backend, pero el backend se puede testear por postman
+para correr el backend se dirige a la carpeta core y ejecuta por consola: node app.js se debe tener
+en cuenta las restricciones CORS para eso hay una extension en chrome que permite probar dos servcios en un
+mismo navegador, el backend esta completo, genera token por una hora. en cuanto el frontend esta la
+estructura pero como lo dijo no conecta al backend, por otra parte la base de datos si esta en mongo atlas
+por lo que se encuentra en la nube. para correr el frontend se direge  la parte web y ejecuta: npm start

@@ -1,0 +1,19 @@
+{
+  "name": "core",
+  "version": "1.0.0",
+  "description": "Este es la parte Back End del Test Api ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ing de Sistemas Beimer Arroyoç",
+  "license": "ISC",
+  "dependencies": {
+    "aes": "^0.1.0",
+    "aes256": "^1.0.4",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.11"
+  }
+}
